@@ -1,0 +1,41 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav
+{
+    background-color: bisque;
+    height: 60px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 3px 0px 12px 45px;
+    padding-top: 10px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul li a:hover{
+    border-bottom: #226ad6 solid 2px;
+    border-radius: 6px 2px;
+    padding-bottom: 6px;
+    cursor: pointer;
+    text-shadow: rgb(177, 171, 171);
+    
+
+}
+nav ul li 
+{
+    padding-left: 27px;
+}
+#displaydiv
+{
+    float: right;
+    margin: -38px 16px;
+}
